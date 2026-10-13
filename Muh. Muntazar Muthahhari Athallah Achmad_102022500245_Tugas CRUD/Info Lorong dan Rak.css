@@ -1,0 +1,78 @@
+body {
+        font-family: Arial, sans-serif;
+        Margin: 20px;
+        color: black;
+        background-color: wheat;
+    }
+    h1 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    p.inpo {
+        font-size: 13px;
+        color: grey;
+        margin-top: 0;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 16px;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 14px;
+    }
+    a.klik {
+        display: inline-block;
+        background: rgb(255, 186, 59);
+        color: black;
+        padding: 6px 14px;
+        text-decoration: none;
+        font-size: 13px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    td.aksi {
+        white-space: nowrap;
+    }
+    a.tombol-edit, a.tombol-hapus {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 6px 14px;
+        border-radius: 20px;
+        text-decoration: none;
+        margin-right: 6px;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+        transition: transform 0.15s, box-shadow 0.15s;
+    }
+    a.tombol-edit {
+        background: #2e86de;
+    }
+    a.tombol-hapus {
+        background: #e74c3c;
+    }
+    a.tombol-edit:hover, a.tombol-hapus:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+    }
+    a.tombol-edit:hover {
+        background: #1b6ec2;
+    }
+    a.tombol-hapus:hover {
+        background: #c0392b;
+    }
+    .hampirbanget {
+        color: orange;
+        font-weight: bold;
+    }
+    .adakok {
+        color: green;
+        font-weight: bold;
+    }
+    .sayangnyapenuh{
+        color: red;
+    }
